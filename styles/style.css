@@ -1,8 +1,8 @@
 :root {
   --main-color: #040405;
   --secondary-color: #c2c5cc;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: 'DM Serif Display', serif;
+  --default-font-family: 'Space Mono', monospace;
 }
 
 body {
@@ -24,8 +24,25 @@ p {
   font-size: 20px;
 }
 
+h3 {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.my-photo {
+  margin-top: 30px;
+  width: 400px;
+}
+
 .main-content {
-  margin-left: 40px;
+  margin-left: 60px;
   padding: 100px 0;
 }
 .profession {
@@ -53,9 +70,32 @@ p {
   border: 0.5px solid #fa327b;
 }
 
-img {
+.projects-box {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.project-photo {
   margin-top: 30px;
-  width: 400px;
+  border-left: 2px solid var(--secondary-color);
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+.vl {
+  border-left: 2px solid var(--secondary-color);
+  height: 250px;
+}
+
+.skewed {
+  transform: skew(-0.05turn);
+}
+
+.projects-button {
+  margin-top: 50px;
 }
 
 @media (max-width: 576px) {
@@ -72,11 +112,55 @@ img {
   .mobile-paragraph {
     font-size: 15px;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
   .mobile-description {
     font-size: 12px;
-    margin-left: 60px;
+    border-left: none;
+    margin: 40px 0;
+    padding: 0;
+    text-align: center;
+  }
+   .mobile-button {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .mobile-hd {
+    text-align: center;
+  }
+
+  .projects-box-mobile {
+    margin-left: 0;
+  }
+
+  .skewed-mobile {
+    transform: skew(0);
+  }
+
+  .project-photo-mobile {
+    margin-top: 30px;
+    border-left: 2px solid var(--secondary-color);
+    border-right: 2px solid var(--secondary-color);
+    padding: 20px 10px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .vl-mobile {
+    display: none;
+  }
+
+  .mobile-project-button {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
   }
 }
 
