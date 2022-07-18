@@ -1,15 +1,14 @@
 :root {
-  --main-color: #040405;
+  --main-color: #1a1b1f;
   --secondary-color: #c2c5cc;
-  --heading-font-family: 'DM Serif Display', serif;
-  --default-font-family: 'Space Mono', monospace;
+  --heading-font-family: "DM Serif Display", serif;
+  --default-font-family: "Space Mono", monospace;
 }
 
 body {
   font-family: var(--default-font-family);
   background: var(--main-color);
   color: var(--secondary-color);
-  border: 20px solid var(--secondary-color);
 }
 
 h1 {
@@ -27,6 +26,7 @@ p {
 h3 {
   margin-top: 60px;
   font-size: 40px;
+  color: #fff;
 }
 
 h2 {
@@ -36,15 +36,19 @@ h2 {
   padding-top: 60px;
 }
 
-.my-photo {
-  margin-top: 30px;
-  width: 400px;
+.navigation {
+  background-color: #181a1f;
 }
 
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+}
 .main-content {
   margin-left: 60px;
-  padding: 100px 0;
+  padding: 60px 0;
 }
+
 .profession {
   color: #1f73c3;
 }
@@ -68,6 +72,11 @@ h2 {
   background-color: #fa327b;
   color: #fff;
   border: 0.5px solid #fa327b;
+}
+
+.my-photo {
+  margin-top: 30px;
+  width: 400px;
 }
 
 .projects-box {
@@ -99,6 +108,7 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
   .main-mobile-content {
     margin: 0;
     padding: 60px 0;
@@ -123,7 +133,7 @@ h2 {
     padding: 0;
     text-align: center;
   }
-   .mobile-button {
+  .mobile-button {
     display: flex;
     margin: 20px;
     justify-content: center;
@@ -131,7 +141,6 @@ h2 {
 }
 
 @media (max-width: 768px) {
-
   .mobile-hd {
     text-align: center;
   }
