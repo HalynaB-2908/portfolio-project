@@ -33,11 +33,12 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 45px;
   color: #fff;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -191,7 +192,30 @@ a {
   }
 }
 
+.about-content {
+  margin-left: 40px;
+  padding: 40px 0;
+  max-width: 1380px;
+}
+
 .about-page-description {
   margin-top: 40px;
   padding-left: 5px;
+}
+
+.education-content {
+  margin-left: 20px;
+  padding-left: 40px;
+  border-left: 0.5px solid white;
+}
+
+.about-head {
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.certificate-box {
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
