@@ -117,11 +117,40 @@ a {
   margin-top: 50px;
 }
 
+.about-content {
+  margin-left: 40px;
+  padding: 40px 0;
+  max-width: 1380px;
+}
+
+.about-page-description {
+  margin-top: 40px;
+  padding-left: 5px;
+}
+
+.education-content {
+  margin-left: 20px;
+  padding-left: 40px;
+  border-left: 0.5px solid white;
+}
+
+.about-head {
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.certificate-box {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 576px) {
 
   .main-mobile-content {
     margin: 0;
     padding: 60px 0;
+    margin-left: 0;
   }
 
   .mobile-heading {
@@ -147,6 +176,15 @@ a {
     display: flex;
     margin: 20px;
     justify-content: center;
+  }
+  .mobile-education-content {
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+  }
+  .mobile-certificate {
+    margin: 20px auto;
   }
 }
 
@@ -192,30 +230,3 @@ a {
   }
 }
 
-.about-content {
-  margin-left: 40px;
-  padding: 40px 0;
-  max-width: 1380px;
-}
-
-.about-page-description {
-  margin-top: 40px;
-  padding-left: 5px;
-}
-
-.education-content {
-  margin-left: 20px;
-  padding-left: 40px;
-  border-left: 0.5px solid white;
-}
-
-.about-head {
-  font-size: 45px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.certificate-box {
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
