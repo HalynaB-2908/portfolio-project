@@ -46,13 +46,17 @@ a {
   color: #c4973b;
 }
 
+a:hover {
+  color: #1f73c3;
+  transition: all 150ms ease-in-out;
+}
+
 .navigation {
   background-color: #181a1f;
 }
 
 .nav-links {
-  color: #fff;
-  text-decoration: none;
+  padding-left: 500px;
 }
 .main-content {
   margin-left: 60px;
@@ -117,10 +121,21 @@ a {
   margin-top: 50px;
 }
 
+.footer-contacts {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.social-links a{
+  padding: 0 15px;
+  font-size: 30px;
+}
+
 .about-content {
   margin-left: 40px;
   padding: 40px 0;
-  /* max-width: 1380px; */
+
 }
 
 .about-page-description {
