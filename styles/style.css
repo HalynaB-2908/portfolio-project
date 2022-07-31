@@ -120,7 +120,7 @@ a {
 .about-content {
   margin-left: 40px;
   padding: 40px 0;
-  max-width: 1380px;
+  /* max-width: 1380px; */
 }
 
 .about-page-description {
@@ -143,6 +143,17 @@ a {
 .certificate-box {
   margin-top: 60px;
   margin-bottom: 40px;
+}
+
+.projects-heading {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.project-head {
+  margin-top: 20px;
+  font-size: 36px;
 }
 
 @media (max-width: 576px) {
@@ -183,9 +194,6 @@ a {
     padding-left: 0;
     border: none;
   }
-  .mobile-certificate {
-    margin: 20px auto;
-  }
 }
 
 @media (max-width: 768px) {
@@ -218,6 +226,9 @@ a {
     display: flex;
     margin: 20px;
     justify-content: center;
+  }
+   .mobile-certificate {
+    margin: 20px auto;
   }
 }
 
